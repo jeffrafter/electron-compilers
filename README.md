@@ -9,23 +9,19 @@ electron-compilers are the actual implementations of classes that power
 
 For JavaScript:
 
-* JavaScript ES6/ES7 (via Babel)
-* TypeScript
-* CoffeeScript
-* GraphQL
+- JavaScript ES6/ES7 (via Babel)
+- TypeScript
+- CoffeeScript
+- GraphQL
 
 For CSS:
 
-* LESS
-* Stylus (with optional nib)
-
-For HTML:
-
-* Jade
+- LESS
+- Stylus (with optional nib)
 
 For JSON:
 
-* CSON
+- CSON
 
 ### Why is this a separate repo?!
 
