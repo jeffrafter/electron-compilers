@@ -8,7 +8,6 @@ const filenames = [
   "js/typescript",
   "json/cson",
   "html/inline-html",
-  "html/vue",
   "passthrough",
 ];
 

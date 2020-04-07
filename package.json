@@ -4,7 +4,6 @@
   "description": "Compiler implementations for electron-compile",
   "main": "lib/main.js",
   "scripts": {
-    "doc": "esdoc -c ./esdoc.json",
     "compile": "git clean -xdf lib && babel -d lib/ src/",
     "prepublish": "npm run compile"
   },
@@ -25,8 +24,8 @@
     "node": ">= 5.0"
   },
   "dependencies": {
+    "@babel/cli": "^7.8.4",
     "@paulcbetts/mime-types": "^2.1.10",
-    "@paulcbetts/vueify": "9.4.3",
     "babel-core": "^6.13.2",
     "babel-preset-env": "^1.3.2",
     "btoa": "^1.1.2",
@@ -35,14 +34,13 @@
     "cson": "^3.0.2",
     "debug": "^2.5.1",
     "detective-less": "^1.0.0",
-    "detective-sass": "^2.0.0",
-    "detective-scss": "^1.0.0",
+    "detective-sass": "^3.0.1",
+    "detective-scss": "^2.0.1",
     "detective-stylus": "^1.0.0",
     "graphql": "^0.9.3",
     "graphql-tag": "^2.0.0",
-    "istanbul": "^0.4.5",
     "js-string-escape": "^1.0.1",
-    "less": "^2.7.1",
+    "less": "^3.11.1",
     "mkdirp": "^0.5.1",
     "nib": "^1.1.2",
     "resolve": "^1.2.0",
@@ -56,7 +54,6 @@
     "typescript": ">=1.6"
   },
   "devDependencies": {
-    "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
@@ -64,9 +61,6 @@
     "babel-preset-es2016-node5": "^1.1.2",
     "babel-preset-react": "^6.11.1",
     "babel-register": "^6.18.0",
-    "esdoc": "^0.4.8",
-    "esdoc-es7-plugin": "0.0.3",
-    "esdoc-plugin-async-to-sync": "^0.5.0",
     "eslint": "^3.3.0"
   }
 }
